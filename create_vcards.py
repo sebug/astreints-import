@@ -18,6 +18,8 @@ class Astreint:
         tel = j.add('tel')
         tel.type_param = "home"
         tel.value = self.phone
+        title = j.add('title')
+        title.value = self.function
         return j
 
 
